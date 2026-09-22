@@ -5,7 +5,9 @@ The objetive of this exercise is to monitor the movement and proliferation of ba
 
 ## Dataset
 The header number represents the ID of the event being analysed 
+
 Each row under the header represents the 3D momentum with its three components (px, py and pz), moreover it contains a fourth number representing the bacterial ID
+
 Each bacterial ID is a different strain 
 
 ## Questions to be answered
