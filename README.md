@@ -1,6 +1,6 @@
 # PRA2003 -Biology theme 
 
-## 
+## Project description
 The objetive of this exercise is to monitor the movement and proliferation of bacterial populations under different conditions 
 
 ## Dataset
