@@ -15,32 +15,30 @@ Each bacterial ID is a different strain
 
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
 
-| Bacterial ID               | Bacterial strain | Total average |Total uncertainty |
-| --- | --- |
-|211|                            |E.coli WT	|       |18,42534|	        |0,00192|
+Bacterial ID	Bacterial strain	Total average 	Total uncertainty
+211	E.coli WT	18,42534	0,00192
 
-|-211|	                         |E.coli mutant|	   |18,39551|	        |0,00192|
+-211	E.coli mutant	18,39551	0,00192
 
-|321|                            |Bacillus subtilis WT|	             |2,31745|	        |0,000681|
+321	Bacillus subtilis WT	2,31745	0,000681
 
-|-321|	         |Bacillus subtilis mutant|	         |2,31219|	        |0,00068|
+-321	Bacillus subtilis mutant	2,31219	0,00068
 
-|2212|	         |Pseudomonas aeruginosa WT|	         |1,11574|	      |0,000472|
+2212	Pseudomonas aeruginosa WT	1,11574	0,000472
 
-|-2212|	         |Pseudomonas aeruginosa|
-                 antibiotic-resistant| 	              |1,09369|	        |0,000468|
-				 
-|3122|	         |Streptococcus pneumoniae	|        | 0,25547|	        |0,000226|
+-2212	Pseudomonas aeruginosa antibiotic-resistant	1,09369	0,000468
 
-|-3122|	         |Capsule-decifient S.pneumoniae|	   |0,25094|	        |0,000224|
+3122	Streptococcus pneumoniae	0,25547	0,000226
 
-|3312|	         |Mycobacterium tuberculosis|	       |0,03643|          |0,0000854|
+-3122	Capsule-decifient S.pneumoniae	0,25094	0,000224
 
-|-3312|	         |Drug-resistant M tuberculosis| 	   |0,03602|	        |0,0000849|
+3312	Mycobacterium tuberculosis	0,03643	0,0000854
 
-|3334|	         |Salmonella enterica| 	             |0,00110|	        |0,0000148|
+-3312	Drug-resistant M tuberculosis 	0,03602	0,0000849
 
-|-3334|          |Salmonella mutant|	               |0,00106|	        |0,0000146| 
+3334	Salmonella enterica 	0,00110	0,0000148
+
+-3334	Salmonella mutant 	0,00106	0,0000146|
 
 	          
 
