@@ -21,9 +21,9 @@ Bacterial ID	Bacterial strain	Total average 	Total uncertainty
 
    -211	          E.coli mutant	      18,39551	       0,00192
 
-    321	         Bacillus subtilis WT	2,31745	       0,000681
+    321	          Bacillus subtilis WT	2,31745	       0,000681
 
--321	         Bacillus subtilis mutant 2,31219	   0,00068
+-321	          Bacillus subtilis mutant 2,31219	   0,00068
 
 2212	Pseudomonas aeruginosa WT	1,11574	0,000472
 
