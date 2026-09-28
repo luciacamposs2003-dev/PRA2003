@@ -16,7 +16,8 @@ Each bacterial ID is a different strain
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
 
 Bacterial ID	Bacterial strain	Total average 	Total uncertainty
-211	E.coli WT	18,42534	0,00192
+   
+    211	          E.coli WT	          18,42534	       0,00192
 
 -211	E.coli mutant	18,39551	0,00192
 
