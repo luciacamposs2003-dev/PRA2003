@@ -15,6 +15,12 @@ Each bacterial ID is a different strain
 
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
 
+The average was calculated with the following formula 
+average= number of bacterial strain per event/ total number of events 
+
+The statistical uncertainty was calculated with 
+Sd = sqrt(the sum of each value from the sample - sample mean) / N - 1
+
 
  |Bacterial ID|	               |Bacterial strain|	                                |Total average| 	  |Total uncertainty|
 
