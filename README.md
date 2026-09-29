@@ -106,4 +106,10 @@ uncertainty: 0.00049
 
 interval:  0.00044 +/-  0.00049
  
-strain 6 -> salmone<img width="247" height="102" alt="Screenshot 2026-09-29 at 23 38 41" src="https://github.com/user-attachments/assets/38f14407-5a30-41f0-a9be-b4f82a394945" />
+strain 6 -> salmonella WT/mutant  -> this strain does not show significant asymmetry because the numbers obtained from  mean+/-uncertainty are one positive and one negative which results into the interval moving through 0 
+
+grand mean difference: 0.00008
+
+uncertainty: 0.00013
+
+interval: 0.00008+/- 0.00013 
