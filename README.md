@@ -15,6 +15,7 @@ Each bacterial ID is a different strain
 
 1. What are the average counts of each bacterial strain and their statistical uncertainties?
 
+
  |Bacterial ID|	               |Bacterial strain|	                                |Total average| 	  |Total uncertainty|
 
     |211|	                     |E.coli WT|	                                      |19.94951|	        |3.27E-02|
@@ -44,23 +45,65 @@ Each bacterial ID is a different strain
 
 2. Is there any asymmetry between the normal and mutant strain?
 
-The asymmetry between the two groups was calculated using a two-sample z-test
-   
-|Bacterial ID|	         |Bacterial strain |                                                         |Significant asymmetry|
+The asymmetry between the WT and the mutant bacterial pairs has been calculated following the process explained below.
 
-|211, -211|	              |E.coli WT + E.coli mutant|                                                        |YES|                                                         
+1st step: we took the means calculated from each of the 10 subsamples. 
 
-|321, -321|	              |Bacillus subtilis WT + Bacillus subtilis mutant|                                  |YES|
+2nd step: with those means we took the mean difference following this formula (mean WT strain - mean mutant strain)
 
-|2212, -2212|	          |Pseudomonas aeruginosa WT + Pseudomonas aeruginosa antibiotic-resistant|          |YES|
+3rd step: from the mean difference we calculated the standard deviation (uncertainty) 
 
-|3122,-3122|	          |Streptococcus pneumoniae + 	Capsule-decifient S.pneumoniae|                      |YES|
+4rd step: then we took the average of the mean differences for each subsample in order to be able to do proceed with mean+/-uncertainty
 
-|3312, -3312| 	          |Mycobacterium tuberculosis + Drug-resistant M tuberculosis|                       |YES|  
+5th step: from the two values obtained doing the mean+/-uncertainty we could find out if the asymmetry was significant or not. 
+if the values obtained are one negative and one positive we can't say confidently that there is any real asymmetry. Meanwhile if the two values obtained are positive we can observe an asymmetry.  This is because between negative and positive numbers the number 0 sits right inside the interval therefore we can't obtain a reliable asymmetry. 
 
-|3334, -3334|             |Salmonella enterica + Salmonella mutant|                                          |NO|
+6th step: in order to match the 10 subsamples with the 6 bacterial pairs the overall average of the mean difference of each strain was calculated 
+for example for bacterial strain 1 which is E.coli WT and mutant their mean differences across the 10 subsamples was gathered summed and then divided by the 10 subsamples 
+the standard deviation was calculated using the formula over the 10 individual mean differences 
 
-	
-   
+those values (grand mean difference) was compared +/- to the uncertainty(SD)
 
-4. Is there any asymmetry as a function of their momentum?
+The values will be displayed below
+
+strain 1 -> e.coli WT/mutant -> signifcant asymmetry because the interval is on positive numbers
+
+grand mean difference: 0.03230
+
+uncertainty: 0.00452
+
+interval 0.03230+/-0.00452
+
+strain 2 -> bacillus WT/mutant -> significant asymmetry because the interval is on the positive numbers
+
+grand mean difference: 0.01093
+
+uncertainty: 0.01862
+
+interval: 0.01093 +/- 0.01862
+
+strain 3 ->  pseudo WT/mutant -> significant asymmetry because the interval moves through positive numbers
+
+grand mean difference:  0.02387
+
+uncertainty: 0.00237
+
+interval: 0.02387 +/- 0.00237 
+
+strain  4 -> streptococcus WT/mutant -> significant asymmetry because the interval moves through positive numbers  
+
+grand mean difference: 0.00490 
+
+uncertainty: 0.00058
+
+interval: 0.00490 +/- 0.00058  
+
+strain 5 -> mycobacterium WT/ mutant -> this strain does not show significant asymmetry because the numbers obtained from  mean+/-uncertainty are one positive and one negative which results into the interval moving through 0 
+
+grand mean difference: 0.00044 
+
+uncertainty: 0.00049
+
+interval:  0.00044 +/-  0.00049
+ 
+strain 6 -> salmone<img width="247" height="102" alt="Screenshot 2026-09-29 at 23 38 41" src="https://github.com/user-attachments/assets/38f14407-5a30-41f0-a9be-b4f82a394945" />
