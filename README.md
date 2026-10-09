@@ -12,7 +12,7 @@ Each row under the header represents the 3D momentum with its three components (
 Each bacterial ID is a different strain 
 
 ## User guide 
-
+***Installation requirements***
 <img width="603" height="241" alt="Screenshot 2026-10-09 at 22 05 58" src="https://github.com/user-attachments/assets/7368004a-8bd8-4491-bcf4-42e101598268" />
 
 
