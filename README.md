@@ -11,9 +11,26 @@ Each row under the header represents the 3D momentum with its three components (
 
 Each bacterial ID is a different strain 
 
+## User guide 
+Programming languages to have installed: 
+
+- R (version: 4.6.1)
+  
+- Python (version: 3.14.8)
+
+Packages needed in order to run the codes in python
+
+- Numpy; it is a library for numerical operations, using arrays, matrix etc
+  
+- Pandas: for data manipulation and analysis, used to create dataframes, 
+  
+- Matplotlib; visualisation tool
+  
+- Scipy; provides formulas to solve complex mathematical problems
+
 ## Questions to be answered
 
-1. What are the average counts of each bacterial strain and their statistical uncertainties?
+__1. What are the average counts of each bacterial strain and their statistical uncertainties?__
 
 The average was calculated with the following formula 
 average= number of bacterial strain per event/ total number of events 
@@ -22,100 +39,79 @@ The statistical uncertainty was calculated with
 Sd = sqrt(the sum of each value from the sample - sample mean) / N - 1
 
 
- |Bacterial ID|	               |Bacterial strain|	                                |Total average| 	  |Total uncertainty|
-
-    |211|	                     |E.coli WT|	                                      |19.94951|	        |3.27E-02|
-
-    |-211|	                     |E.coli mutant|	                     	          |19.91722|	        |3.19E-02|                   	                                        
-
-    |321|	                     |Bacillus subtilis WT|	                              |2.50915|	            |4.77E-03|
-
-    |-321|	                     |Bacillus subtilis mutant|                           |2.50346|	            |5.50E-03|
- 
-    |2212|	                     |Pseudomonas aeruginosa WT|	                      |1.20803|	            |1.90E-03|
-
-    |-2212|	                     |Pseudomonas aeruginosa antibiotic-resistant|	      |1.18416|	            |2.41E-03|
-
-    |3122|	                     |Streptococcus pneumoniae|	                          |0.2717|	            |1.07E-03|
-
-    |-3122|	                     |Capsule-decifient S.pneumoniae|	                  |0.03944|	            |9.85E-04|
-
-    |3312|	                     |Mycobacterium tuberculosis|	                      |0.039|	            |2.83E-04|
-
-    |-3312|                       |Drug-resistant M tuberculosis| 	                  |0.03602|	            |4.03E-04|
-
-    |3334|	                     |Salmonella enterica| 	                              |0.00119|	            |4.16E-05|
-
-    |-3334|                       |Salmonella mutant| 	                              |0.00115|	            |5.18E-05|
+<img width="572" height="394" alt="Screenshot 2026-10-09 at 21 48 00" src="https://github.com/user-attachments/assets/dbc59273-31d1-414a-a0d9-a58a21895074" />
 
 
-2. Is there any asymmetry between the normal and mutant strain?
+
+__2. Is there any asymmetry between the normal and mutant strain?__
 
 The asymmetry between the WT and the mutant bacterial pairs has been calculated following the process explained below.
 
-1st step: we took the means calculated from each of the 10 subsamples. 
+***Part 1 analysis***
 
-2nd step: with those means we took the mean difference following this formula (mean WT strain - mean mutant strain)
+1st step: is to calculate the total count of each bacterial strain per event , this was done using the formula total count = ∑(events x average per event) / number of datasets
+After getting the total count of each bacteria per event the average of each ID per event is calculated simply dividing the total count/ total events 
 
-3rd step: from the mean difference we calculated the standard deviation (uncertainty) 
+2nd step: after getting the average number of ID's per event we calculated the standard deviation (SD) using the formula SD= √[Σ(xᵢ − x̄)² / (n − 1)] , and the same was done for each strain in each event 
 
-4rd step: then we took the average of the mean differences for each subsample in order to be able to do proceed with mean+/-uncertainty
+3rd step: then the uncertainty on the average was calculated using the SD/√10.
 
-5th step: from the two values obtained doing the mean+/-uncertainty we could find out if the asymmetry was significant or not. 
-if the values obtained are one negative and one positive we can't say confidently that there is any real asymmetry. Meanwhile if the two values obtained are positive we can observe an asymmetry.  This is because between negative and positive numbers the number 0 sits right inside the interval therefore we can't obtain a reliable asymmetry. 
+<img width="675" height="393" alt="Screenshot 2026-10-09 at 21 42 01" src="https://github.com/user-attachments/assets/a0beec5e-c518-4372-845b-73041e2c4d29" />
 
-6th step: in order to match the 10 subsamples with the 6 bacterial pairs the overall average of the mean difference of each strain was calculated 
-for example for bacterial strain 1 which is E.coli WT and mutant their mean differences across the 10 subsamples was gathered summed and then divided by the 10 subsamples 
-the standard deviation was calculated using the formula over the 10 individual mean differences 
+***Part 2 analysis***
 
-those values (grand mean difference) was compared +/- to the uncertainty(SD)
+4rd step: the next step is to calculate the asymmetry for each WT/mutant pair. For each of the 10 datasets, the following formula was used. d = WT - mutant , and the numbers plotted were the dataset's average per event 
 
-The values will be displayed below
+5th step: then, again per each dataset A = (WT - mutant) / (WT + mutant) * 100 %, and mean = d * A ( with each 10 datasets separately)
 
-strain 1 -> e.coli WT/mutant -> signifcant asymmetry because the interval is on positive numbers
+6th step: sigma is calculated by dividing the mean over the standard deviation
 
-grand mean difference: 0.03230
+To determine if the values are asymmetric or not the following reasoning was taken into account. If sigma is above the threshold, in this case 3-5 sigma, the bacterial pair is asymmetric. Otherwise, if its bellow the pair is symmetric. 
 
-uncertainty: 0.00452
+The values will be displayed below in a table 
 
-interval 0.03230+/-0.00452
+<img width="844" height="306" alt="Screenshot 2026-10-09 at 21 42 29" src="https://github.com/user-attachments/assets/1259314d-356e-4ecb-9ad9-38fe641fd43b" />
 
-strain 2 -> bacillus WT/mutant -> significant asymmetry because the interval is on the positive numbers
 
-grand mean difference: 0.01093
 
-uncertainty: 0.01862
 
-interval: 0.01093 +/- 0.01862
+__3. Is there any asymmetry as a function of their momentum?__
 
-strain 3 ->  pseudo WT/mutant -> significant asymmetry because the interval moves through positive numbers
+To answer this question the objective was to obtain the asymmetry between WT and mutant strait at each momentum as well as their statistical uncertainty per bin, to do that the steps explained below were done. 
 
-grand mean difference:  0.02387
+Bins: it refers to the momentum ranges
+The same bins were used for the 10 subsamples 
+In order to adjust the bin width the data was converted from frequency to density by, density = freq/ bin width
 
-uncertainty: 0.00237
+To analyse the graphs found in this section is important to take into account that
 
-interval: 0.02387 +/- 0.00237 
+- more bacteria = narrower bins
+  
+- less bacteria = wider bins
 
-strain  4 -> streptococcus WT/mutant -> significant asymmetry because the interval moves through positive numbers  
+1st step: calculate the momentum
 
-grand mean difference: 0.00490 
+2nd step: bins were chosen
 
-uncertainty: 0.00058
+3rd step: Count per bin N =(WT) & N(mutant) in each bin, per dataset
 
-interval: 0.00490 +/- 0.00058  
+4th step: calculate asymmetry and dN/dp
 
-strain 5 -> mycobacterium WT/ mutant -> this strain does not show significant asymmetry because the numbers obtained from  mean+/-uncertainty are one positive and one negative which results into the interval moving through 0 
+5th step: Average the 10 datasets Mean per bin & uncertainty SD
 
-grand mean difference: 0.00044 
+6th step: Plot A against P & dP/dN against P
 
-uncertainty: 0.00049
 
-interval:  0.00044 +/-  0.00049
- 
-strain 6 -> salmonella WT/mutant  -> this strain does not show significant asymmetry because the numbers obtained from  mean+/-uncertainty are one positive and one negative which results into the interval moving through 0 
+<img width="950" height="600" alt="Figure-p aeruginosa1" src="https://github.com/user-attachments/assets/b64c3d15-9670-4406-adb2-e49e814fae60" />
 
-grand mean difference: 0.00008
+<img width="950" height="600" alt="Figure_p aeruginosa2" src="https://github.com/user-attachments/assets/5cc917ae-bef3-4ac9-a8f9-b53ac716abe3" />
 
-uncertainty: 0.00013
 
-interval: 0.00008+/- 0.00013 
+<img width="950" height="600" alt="Figure_tuberculosis 1" src="https://github.com/user-attachments/assets/afa2bfc2-7071-4af8-9670-335218b6666d" />
+
+
+<img width="950" height="600" alt="Figure_tuberculosis2" src="https://github.com/user-attachments/assets/515930df-d85a-449f-99db-8c961de4dab6" />
+
+
+
+
