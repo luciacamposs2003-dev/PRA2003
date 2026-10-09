@@ -4,13 +4,6 @@
 The objetive of this exercise is to monitor the movement and proliferation of bacterial populations under different conditions.
 This project has been conducted in R, with the support of VScode 
 
-## Dataset
-The header number represents the ID of the event being analysed 
-
-Each row under the header represents the 3D momentum with its three components (px, py and pz), moreover it contains a fourth number representing the bacterial ID
-
-Each bacterial ID is a different strain 
-
 ## User guide 
 
 ***Installation requirements***
@@ -27,6 +20,15 @@ Packages needed in order to run the codes in python
 - Matplotlib; visualisation tool
   
 - Scipy; provides formulas to solve complex mathematical problems
+
+## Dataset
+The header number represents the ID of the event being analysed 
+
+Each row under the header represents the 3D momentum with its three components (px, py and pz), moreover it contains a fourth number representing the bacterial ID
+
+Each bacterial ID is a different strain 
+
+500.000 events per file, 5M across the 10 files 
 
 ## Questions to be answered
 
