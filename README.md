@@ -12,11 +12,9 @@ Each row under the header represents the 3D momentum with its three components (
 Each bacterial ID is a different strain 
 
 ## User guide 
-Programming languages to have installed: 
 
-- R (version: 4.6.1)
-  
-- Python (version: 3.14.8)
+<img width="603" height="241" alt="Screenshot 2026-10-09 at 22 05 58" src="https://github.com/user-attachments/assets/7368004a-8bd8-4491-bcf4-42e101598268" />
+
 
 Packages needed in order to run the codes in python
 
