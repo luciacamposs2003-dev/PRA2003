@@ -104,15 +104,43 @@ To analyse the graphs found in this section is important to take into account th
 6th step: Plot A against P & dP/dN against P
 
 
+***Results E.coli***
+
+<img width="950" height="600" alt="Figure_1E coli" src="https://github.com/user-attachments/assets/4ccf98b0-8e73-462a-987d-7852739ad292" />
+
+<img width="950" height="600" alt="Figure_2E coli" src="https://github.com/user-attachments/assets/4b2fdf9c-286b-441e-af15-56b1dc273c18" />
+
+***Results Bacillus subtilis***
+<img width="950" height="600" alt="Figure_1Bsubtilis" src="https://github.com/user-attachments/assets/893721c6-066f-4b41-a074-5548db6531a4" />
+
+<img width="950" height="600" alt="Figure_2Bsubtilis" src="https://github.com/user-attachments/assets/7807601e-0223-4d6c-84ea-85714c69b594" />
+
+***Results Streptococcus** 
+<img width="950" height="600" alt="Figure_1coccus" src="https://github.com/user-attachments/assets/13198b39-cb68-48b2-b6b0-52daeb4a0b98" />
+
+<img width="950" height="600" alt="Figure_2coccus" src="https://github.com/user-attachments/assets/52923832-c552-4d21-b57c-d8f089350f2a" />
+
+
+***Results salmonella***
+<img width="950" height="600" alt="Figure_1salmonella" src="https://github.com/user-attachments/assets/0de00e13-4b1d-460d-be34-643216f8c3b3" />
+
+<img width="950" height="600" alt="Figure_2salmonella" src="https://github.com/user-attachments/assets/252a3cb1-2d09-4546-916b-4b6c7e5a3ea2" />
+
+
+***Results P.aeruginosa***
 <img width="950" height="600" alt="Figure-p aeruginosa1" src="https://github.com/user-attachments/assets/b64c3d15-9670-4406-adb2-e49e814fae60" />
 
 <img width="950" height="600" alt="Figure_p aeruginosa2" src="https://github.com/user-attachments/assets/5cc917ae-bef3-4ac9-a8f9-b53ac716abe3" />
 
-
+***Results tuberculosis***
 <img width="950" height="600" alt="Figure_tuberculosis 1" src="https://github.com/user-attachments/assets/afa2bfc2-7071-4af8-9670-335218b6666d" />
 
 
 <img width="950" height="600" alt="Figure_tuberculosis2" src="https://github.com/user-attachments/assets/515930df-d85a-449f-99db-8c961de4dab6" />
+
+
+
+## Conclusion
 
 
 
