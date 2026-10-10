@@ -139,6 +139,7 @@ To analyse the graphs found in this section is important to take into account th
 <img width="950" height="600" alt="Figure_tuberculosis2" src="https://github.com/user-attachments/assets/515930df-d85a-449f-99db-8c961de4dab6" />
 
 
+## Discussion
 
 ## Conclusion
 
