@@ -111,14 +111,17 @@ To analyse the graphs found in this section is important to take into account th
 <img width="950" height="600" alt="Figure_2E coli" src="https://github.com/user-attachments/assets/4b2fdf9c-286b-441e-af15-56b1dc273c18" />
 
 ***Results Bacillus subtilis***
-<img width="950" height="600" alt="Figure_1Bsubtilis" src="https://github.com/user-attachments/assets/893721c6-066f-4b41-a074-5548db6531a4" />
+<img width="950" height="600" alt="WhatsApp Image 2026-10-13 at 12 32 44" src="https://github.com/user-attachments/assets/7f9d8179-99a3-4e21-b5ad-0491d398accf" />
 
-<img width="950" height="600" alt="Figure_2Bsubtilis" src="https://github.com/user-attachments/assets/7807601e-0223-4d6c-84ea-85714c69b594" />
+<img width="950" height="600" alt="WhatsApp Image 2026-10-13 at 12 32 44 copy" src="https://github.com/user-attachments/assets/6a099619-6423-42c3-972b-c5b5e511dc3d" />
 
-***Results Streptococcus** 
-<img width="950" height="600" alt="Figure_1coccus" src="https://github.com/user-attachments/assets/13198b39-cb68-48b2-b6b0-52daeb4a0b98" />
 
-<img width="950" height="600" alt="Figure_2coccus" src="https://github.com/user-attachments/assets/52923832-c552-4d21-b57c-d8f089350f2a" />
+***Results Streptococcus*** 
+
+<img width="900" height="595" alt="Screenshot 2026-10-12 at 19 26 41" src="https://github.com/user-attachments/assets/dc2a4a12-20b7-4b0b-8df2-9f1edc16c3ef" />
+
+<img width="892" height="602" alt="Screenshot 2026-10-12 at 19 26 35" src="https://github.com/user-attachments/assets/eb781f3c-225f-47a2-ab0e-7b48ed3e757d" />
+
 
 
 ***Results salmonella***
