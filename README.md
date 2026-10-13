@@ -106,9 +106,10 @@ To analyse the graphs found in this section is important to take into account th
 
 ***Results E.coli***
 
-<img width="950" height="600" alt="Figure_1E coli" src="https://github.com/user-attachments/assets/4ccf98b0-8e73-462a-987d-7852739ad292" />
+<img width="950" height="600" alt="WhatsApp Image 2026-10-13 at 13 31 57 copy" src="https://github.com/user-attachments/assets/28436fc6-58fc-4ea9-b285-9653e0a42908" />
 
-<img width="950" height="600" alt="Figure_2E coli" src="https://github.com/user-attachments/assets/4b2fdf9c-286b-441e-af15-56b1dc273c18" />
+<img width="950" height="600" alt="WhatsApp Image 2026-10-13 at 13 31 57" src="https://github.com/user-attachments/assets/7c21f5d4-2e9c-40f4-af0e-7b6643bf8393" />
+
 
 ***Results Bacillus subtilis***
 <img width="950" height="600" alt="WhatsApp Image 2026-10-13 at 12 32 44" src="https://github.com/user-attachments/assets/7f9d8179-99a3-4e21-b5ad-0491d398accf" />
@@ -125,9 +126,9 @@ To analyse the graphs found in this section is important to take into account th
 
 
 ***Results salmonella***
-<img width="950" height="600" alt="Figure_1salmonella" src="https://github.com/user-attachments/assets/0de00e13-4b1d-460d-be34-643216f8c3b3" />
+<img width="950" height="600" alt="finalFigure_1salmonella" src="https://github.com/user-attachments/assets/b7676799-82b1-4142-9246-457aae28850d" />
 
-<img width="950" height="600" alt="Figure_2salmonella" src="https://github.com/user-attachments/assets/252a3cb1-2d09-4546-916b-4b6c7e5a3ea2" />
+<img width="950" height="600" alt="finalFigure_2salmonella" src="https://github.com/user-attachments/assets/2f8da9d9-7739-4e95-ad08-19fba35a9c4f" />
 
 
 ***Results P.aeruginosa***
