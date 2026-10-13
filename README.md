@@ -27,7 +27,7 @@ Packages needed in order to run the codes in python
 
 ## Dataset
 
-Files used: `output-Set1.txt`... `output-Set19.txt`from SURFdrive (around 800MB each file). `output-Set0.txt` was a test file with one event. 
+Files used: `output-Set1.txt`... `output-Set10.txt`from SURFdrive (around 800MB each file). `output-Set0.txt` was a test file with one event. 
 
 The header number represents the event being analysed 
 
